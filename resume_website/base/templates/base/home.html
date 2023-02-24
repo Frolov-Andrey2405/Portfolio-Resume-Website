@@ -1,1 +1,120 @@
-<h3>Hello world!</h3>
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frolov Andrey</title>
+    <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100  border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/off.jpeg' %}">
+                    <hr>
+                    <h4>Hi, I'm Andrey!</h4>
+                    <p>I love coding, doing research and collaborating</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100  border-info">
+                    <h4>My first project as a Python/Django back-end developer</h4>
+                    <hr>
+                    <p>As part of my first project as a Python/Django back-end developer, I worked on creating a web
+                        application for notes.</p>
+
+                    <p>A web application called Learning Log that allows the user to log topics of interest and create
+                        diary entries as they
+                        study each topic. The Learning Log home page contains a description of the site and prompts the
+                        user to register or
+                        enter their credentials. After successful login, the user can create new topics, add new
+                        entries, read and edit existing
+                        entries.
+                    </p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Developer</h5>
+                    <hr>
+                    <p>As a developer, I have worked on various projects in different areas, but my main experience is
+                        in back-end development.
+                        I am well versed in database design and optimization, RESTful API development, and cloud
+                        infrastructure management. I
+                        also have experience using agile methodologies and version control systems such as Git.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <hr>
+                    <p>I have a solid understanding of back-end web development, including server-side scripting,
+                        database management, and API
+                        integration. I am proficient in Python, Django, SQL, and NoSQL databases. Additionally, I have
+                        experience working with
+                        front-end technologies such as HTML, CSS, and JavaScript, and I am comfortable collaborating
+                        with designers and other
+                        stakeholders.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>I have primarily taught myself through online resources such as documentation, tutorials, and
+                        forums. I believe in
+                        learning by doing and have undertaken various personal projects to practice and refine my
+                        skills. Additionally, I attend
+                        tech conferences and meetups to network with other developers and learn about emerging
+                        technologies and best practices.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>Improving My Skills as a Back-End Developer</p>
+                    <p>As a back-end developer, I'm always looking to improve my skills and keep up with the latest
+                        trends and best practices
+                        in the industry. In the short term, deepen my understanding of back-end architecture and design
+                        patterns. To improve my
+                        skills as a back-end developer, I plan to delve deeper into the architecture and design patterns
+                        used in creating
+                        scalable and secure applications. This involves reading books and articles, taking online
+                        courses, and attending
+                        seminars and conferences.</p>
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+</body>
+
+</html>
